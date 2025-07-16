@@ -37,7 +37,6 @@ interface Props {
   tags: readonly string[];
   link?: string;
   image?: string;
-  video?: string;
   links?: readonly {
     icon: React.ReactNode;
     type: string;
@@ -54,7 +53,6 @@ export function ProjectCard({
   tags,
   link,
   image,
-  video,
   links,
   className,
 }: Props) {
@@ -115,7 +113,7 @@ export function ProjectCard({
                 <Link href={link?.href} key={idx} target="_blank">
                   <Badge className="w-20 flex items-center justify-center gap-1 bg-black text-white px-2 py-1 text-xs font-semibold transition hover:scale-104 hover:bg-gray-700">
                     {typeof link.icon === 'string' && (
-                      <img src={link.icon} alt={link.type + ' icon'} className="w-3.5 h-3.5 inline mr-1" />
+                      <Image src={link.icon} alt={link.type + ' icon'} className="w-3.5 h-3.5 inline mr-1" />
                     )}
                     {link.type}
                   </Badge>

@@ -1,14 +1,5 @@
 import './globals.css';
-import Link from 'next/link';
 import { ReactNode } from 'react';
-import { Button } from "@/components/ui/button";
-
-const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/#resume', label: 'Resume' },
-  { href: '/#projects', label: 'Projects' },
-  { href: '/#contact', label: 'Contact' },
-];
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (

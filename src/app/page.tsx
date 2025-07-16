@@ -1,22 +1,17 @@
 "use client";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Card, CardTitle, CardHeader, CardAction, CardContent, CardDescription, CardFooter } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
-import Image from 'next/image';
-import { DATA } from '../data/resume';
+import { DATA } from "../data/resume";
+import Image from "next/image";
 import { ProjectCard } from "@/app/components/project-card";
 import {
   Home as HomeIcon,
-  Notebook as ResumeIcon,
   Github as GithubIcon,
   Linkedin as LinkedinIcon,
   Instagram as InstagramIcon,
-  Sun as SunIcon,
   FileText as Resume
-} from 'lucide-react';
+} from "lucide-react";
 import BlurFade from "@/app/components/magicui/blur-fade";
 import BlurFadeText from "@/app/components/magicui/blur-fade-text";
 
@@ -86,7 +81,7 @@ export default function Home() {
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 3}>
             <div className="text-muted-foreground text-base mb-4 max-w-xl mr-6">
-              I'm studying CS + a little Math/Philosophy in the School of
+              I&apos;m studying CS + a little Math/Philosophy in the School of
               Engineering at{" "}
               <a
                 className=" text-blue-400 underline"
@@ -94,8 +89,8 @@ export default function Home() {
               >
                 Tufts
               </a>
-              . I'm passionate about impactful computing and solutions that better
-              the lives of others. I'm most interested in software development and
+              . I&apos;m passionate about impactful computing and solutions that better
+              the lives of others. I&apos;m most interested in software development and
               statistical analysis in the natural sciences, be it computational
               biology/astronomy, medical devices/technology, academic research, or
               any similar work that seeks to make a difference.
@@ -107,7 +102,7 @@ export default function Home() {
           <div className="flex-shrink-0 flex justify-center items-center w-full md:w-auto md:mt-28 -ml-2">
             <div className="rounded-2xl overflow-hidden shadow-lg bg-white/80">
               <Link href="#">
-                <img
+                <Image
                   src={DATA.avatarUrl}
                   alt={DATA.name}
                   width={240}
@@ -196,14 +191,14 @@ export default function Home() {
         <Section title="Skills">
          <BlurFade delay={BLUR_FADE_DELAY * 2}>
           <div className="flex flex-wrap gap-2 ">
-            {DATA.skills.map((skill, i) => (
+            {DATA.skills.map((skill) => (
               <BlurFade key={skill.title} delay={BLUR_FADE_DELAY * 8}>
               <Badge
                 key={skill.title}
                 variant="default"
                 className="inline-flex text-sm items-center hover:scale-104 transition-transform duration-300 ease-in-out"
               >
-                <img
+                <Image
                   src={skill.logo}
                   alt={skill.title}
                   className="h-4 w-4 mr-1"
@@ -252,7 +247,7 @@ export default function Home() {
                     >
                       email
                     </Link>{" "}
-                    and I'll respond whenever I can. I would love to hear what you have to say!
+                    and I&apos;ll respond whenever I can. I would love to hear what you have to say!
                   </p>
                 </div>
               </BlurFade>
