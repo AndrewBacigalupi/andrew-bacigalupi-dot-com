@@ -61,7 +61,7 @@ export function ProjectCard({
     <Card
       ref={ref}
       className={
-        `flex flex-col overflow-hidden border rounded-2xl shadow-sm bg-white h-full max-w-full p-0 fade-in-up${inView ? ' in-view' : ''}`
+        `flex flex-col overflow-hidden border rounded-2xl shadow-sm bg-white h-full hover:scale-103 transition-transform duration-300 ease-in-out max-w-full p-0 fade-in-up${inView ? ' in-view' : ''}`
       }
     >
       <Link
@@ -71,10 +71,10 @@ export function ProjectCard({
         {image && (
           <div className="w-full flex justify-center overflow-x-auto m-0 p-0">
             <Image
-              src={image}
-              alt={title}
               width={220}
               height={80}
+              src={image}
+              alt={title}
               className="w-78 h-48 object-cover object-top m-0 p-0"
             />
           </div>
@@ -113,7 +113,7 @@ export function ProjectCard({
                 <Link href={link?.href} key={idx} target="_blank">
                   <Badge className="w-20 flex items-center justify-center gap-1 bg-black text-white px-2 py-1 text-xs font-semibold transition hover:scale-104 hover:bg-gray-700">
                     {typeof link.icon === 'string' && (
-                      <Image src={link.icon} alt={link.type + ' icon'} className="w-3.5 h-3.5 inline mr-1" />
+                      <Image width={3.5} height={3.5} src={link.icon} alt={link.type + ' icon'} className="w-3.5 h-3.5 inline mr-1" />
                     )}
                     {link.type}
                   </Badge>

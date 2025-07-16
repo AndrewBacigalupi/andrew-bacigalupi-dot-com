@@ -89,14 +89,14 @@ export const DATA = {
     { title: "Git / GitHub", logo: "/github.png" },
     { title: "MediaPipe / Vision", logo: "/mediapipe.png" },
     { title: "Google Suite", logo: "/google.png"},
-    { title: "SciPy / NumPy", logo: "numpy.png"},
-    { title: "Statistics / Analysis", logo: "statistics.png" }
+    { title: "SciPy / NumPy", logo: "/numpy.png"},
+    { title: "Statistics / Analysis", logo: "/statistics.png" }
   ],
 
   projects: [
     {
       title: "LearnToScode",
-      description: "Entry-level coding site for problem solving on large scale input data. ",
+      description: "Entry-level coding site for problem solving on large scale input data, giving learners hands on practice.",
       dates: "June 2025 - Present",
       technologies: ["Next.js", "TypeScript", "Tailwind", "Neon", "Drizzle", "GitHub OAuth"],
       href: "www.learn-to-scode-rho.vercel.app",
@@ -128,7 +128,23 @@ export const DATA = {
           href: 'https://github.com/andrewbacigalupi/golf-swing-analysis',
         }
       ]
-    }
+    },
+    {
+      title: "Tufts MBB In-Practice Stat Tracker",
+      description: "Custom stat tracker connected to Google Sheets to streamline early-season data collection in practice. Includes original weighted statistics for shooting evaluation.",
+      dates: "Sep 2024 - Present",
+      technologies: ["Google Apps Script", "Google Sheets", "Statistical Analysis"],
+      href: "www.learn-to-scode-rho.vercel.app",
+      image: "/tuftsmbb.png",
+      links: [
+        {
+          icon: "/github.png",
+          type: 'Source',
+          href: 'https://github.com/andrewbacigalupi/',
+        }
+      ]
+    },
+
   ],
   hackathons: [],
   contact: {

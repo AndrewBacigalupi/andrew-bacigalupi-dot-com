@@ -99,7 +99,7 @@ export default function Home() {
         </div>
         {/* Right: Image */}
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <div className="flex-shrink-0 flex justify-center items-center w-full md:w-auto md:mt-28 -ml-2">
+          <div className="flex-shrink-0 flex justify-center items-center w-full md:w-auto md:mt-29 -ml-2">
             <div className="rounded-2xl overflow-hidden shadow-lg bg-white/80">
               <Link href="#">
                 <Image
@@ -107,7 +107,7 @@ export default function Home() {
                   alt={DATA.name}
                   width={240}
                   height={240}
-                  className=" object-cover w-[200px] h-[200px] md:w-[260px] md:h-[220px] transition-all duration-300 hover:scale-104 hover:text-white hover:bg-blue-200 transition-transform ease-in-out"
+                  className=" object-cover w-[200px] h-[200px] md:w-[290px] md:h-[210px] transition-all duration-300 hover:scale-104 hover:text-white hover:bg-blue-200 transition-transform ease-in-out"
                   style={{ display: "block" }}
                 />
               </Link>
@@ -196,9 +196,11 @@ export default function Home() {
               <Badge
                 key={skill.title}
                 variant="default"
-                className="inline-flex text-sm items-center hover:scale-104 transition-transform duration-300 ease-in-out"
+                className="inline-flex text-sm items-center hover:scale-104 transition-transform duration-300 "
               >
                 <Image
+                  width={4}
+                  height={4}
                   src={skill.logo}
                   alt={skill.title}
                   className="h-4 w-4 mr-1"
@@ -234,7 +236,7 @@ export default function Home() {
           {/* Contact Section */}
           <section className="mb-20">
             <div className="grid items-center justify-start gap-4 py-12 w-full mb-14">
-              <BlurFade delay={BLUR_FADE_DELAY * 16}>
+              <BlurFade delay={BLUR_FADE_DELAY * 10}>
                 <div className="space-y-3">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                     Get in Touch
