@@ -5,6 +5,8 @@ import Link from "next/link";
 import { DATA } from "../data/resume";
 import Image from "next/image";
 import { ProjectCard } from "@/app/components/project-card";
+import Head from "next/head";
+import { Inter } from 'next/font/google'
 import {
   Home as HomeIcon,
   Github as GithubIcon,
@@ -62,44 +64,49 @@ function BottomNavBar() {
 
 export default function Home() {
   return (
+    
     <div className="flex flex-col items-center justify-center w-full min-h-screen text-gray-900">
+      <Head>
+        <link rel="icon" href="/ab.png" type="image/png" />
+      </Head>
       {/* Hero/About Section */}
       <section className="max-w-4xl w-full mx-auto flex flex-col md:flex-row text-left gap-6 px-4 pb-2">
         {/* Left: Title and About */}
-        <div className=" flex flex-col items-start text-left w-full gap-4">
-          <div className="mb-4 text-center sm:text-left">
+        <div className="flex flex-col items-start text-left w-full gap-4">
+          <div className="mt-5 mb-5 text-center sm:text-left w-full">
             <BlurFadeText
               delay={BLUR_FADE_DELAY}
-              className="text-4xl font-extrabold"
+              className="text-4xl font-bold"
               yOffset={8}
             >
               Andrew Bacigalupi
             </BlurFadeText>
           </div>
-          <BlurFade delay={BLUR_FADE_DELAY * 2}>
-            <h2 className="text-xl font-bold ">About</h2>
-          </BlurFade>
+          
+          
           <BlurFade delay={BLUR_FADE_DELAY * 3}>
-            <div className="text-muted-foreground text-base mb-4 max-w-xl mr-6">
-              I&apos;m studying CS + a little Math/Philosophy in the School of
+            <h2 className="mt-1 text-2xl font-bold">About</h2>
+            <div className="text-muted-foreground mb-4 max-w-xl mr-6">
+
+              I&apos;m studying CS + a little Math / Philosophy in the School of
               Engineering at{" "}
               <a
                 className=" text-blue-400 underline"
-                href="https://www.tufts.edu"
+                href="https://tufts.edu/"
               >
                 Tufts
               </a>
               . I&apos;m passionate about impactful computing and solutions that better
               the lives of others. I&apos;m most interested in software development and
               statistical analysis in the natural sciences, be it computational
-              biology/astronomy, medical devices/technology, academic research, or
+              biology / astronomy, medical devices / technology, academic research, or
               any similar work that seeks to make a difference.
             </div>
           </BlurFade>
         </div>
         {/* Right: Image */}
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <div className="flex-shrink-0 flex justify-center items-center w-full md:w-auto md:mt-29 -ml-2">
+          <div className="flex-shrink-0 flex justify-center items-center w-full md:w-auto md:mt-31 -ml-2">
             <div className="rounded-2xl overflow-hidden shadow-lg bg-white/80">
               <Link href="#">
                 <Image
@@ -147,7 +154,16 @@ export default function Home() {
                     {work.start} - {work.end ?? "Present"}
                   </div>
                   <div className="text-xs text-gray-500 mb-1">
-                    {work.description?.[0]}
+                    {work.description &&
+                      work.description.map((bullet, idx) => (
+                        <ol
+                          key={bullet}
+                         
+                          className=" transition-transform duration-300 ease-in-out"
+                        >
+                          • {work.description[idx]}
+                        </ol>
+                      ))}
                   </div>
                 </div>
               </div>
@@ -188,9 +204,9 @@ export default function Home() {
             ))}
           </div>
         </Section>
+        <BlurFade delay={BLUR_FADE_DELAY * 2}>
         <Section title="Skills">
-         <BlurFade delay={BLUR_FADE_DELAY * 2}>
-          <div className="flex flex-wrap gap-2 ">
+          <div className="flex flex-wrap gap-2 mt-2">
             {DATA.skills.map((skill) => (
               <BlurFade key={skill.title} delay={BLUR_FADE_DELAY * 8}>
               <Badge
@@ -210,38 +226,39 @@ export default function Home() {
               </BlurFade>
             ))}
           </div>
-         </BlurFade>
         </Section>
-        <div className="max-w-4xl w-full">
-          <Section title="Projects">
+        </BlurFade>
+          <div className="max-w-4xl w-full">
             <BlurFade delay={BLUR_FADE_DELAY * 9}>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mr-4">
-                {DATA.projects.map((project, i) => (
-                  <BlurFade key={project.title} delay={BLUR_FADE_DELAY * 10 + i * 0.05}>
-                    <ProjectCard
-                      href={project.href}
-                      key={project.title}
-                      title={project.title}
-                      description={project.description}
-                      dates={project.dates}
-                      tags={project.technologies}
-                      image={project.image}
-                      links={project.links}
-                    />
-                  </BlurFade>
-                ))}
-              </div>
-            </BlurFade>
-          </Section>
+            <Section title="Projects">
+              
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mr-4">
+                  {DATA.projects.map((project, i) => (
+                    <BlurFade key={project.title} delay={BLUR_FADE_DELAY * 10 + i * 0.05}>
+                      <ProjectCard
+                        href={project.href}
+                        key={project.title}
+                        title={project.title}
+                        description={project.description}
+                        dates={project.dates}
+                        tags={project.technologies}
+                        image={project.image}
+                        links={project.links}
+                      />
+                    </BlurFade>
+                  ))}
+                </div>
+            </Section>
+          </BlurFade>
           {/* Contact Section */}
           <section className="mb-20">
             <div className="grid items-center justify-start gap-4 py-12 w-full mb-14">
               <BlurFade delay={BLUR_FADE_DELAY * 10}>
-                <div className="space-y-3">
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                <div className="space-y-3 mb-10">
+                  <h2 className="text-3xl font-bold  sm:text-5xl ">
                     Get in Touch
                   </h2>
-                  <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  <p className="mx-auto mt-6 max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                     Ideas? Feedback? Want to chat? Just shoot me an {" "}
                     <Link
                       href={DATA.contact.email}
@@ -249,7 +266,7 @@ export default function Home() {
                     >
                       email
                     </Link>{" "}
-                    and I&apos;ll respond whenever I can. I would love to hear what you have to say!
+                    and I&apos;ll respond as soon as possible. I would love to hear what you have to say!
                   </p>
                 </div>
               </BlurFade>

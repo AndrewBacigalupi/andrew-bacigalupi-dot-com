@@ -84,7 +84,7 @@ export const DATA = {
     { title: "HTML", logo: "/html.png" },
     { title: "CSS / Tailwind", logo: "/tailwind.png"},
     { title: "SQL / Postgres", logo: "/sql.png" },
-    { title: "React / Next.js", logo: "/react.png" },
+    { title: "Next.js", logo: "/react.png" },
     { title: "Assembly", logo: "/assembly.png" },
     { title: "Git / GitHub", logo: "/github.png" },
     { title: "MediaPipe / Vision", logo: "/mediapipe.png" },
