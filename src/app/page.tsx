@@ -6,7 +6,6 @@ import { DATA } from "../data/resume";
 import Image from "next/image";
 import { ProjectCard } from "@/app/components/project-card";
 import Head from "next/head";
-import { Inter } from 'next/font/google'
 import {
   Home as HomeIcon,
   Github as GithubIcon,
