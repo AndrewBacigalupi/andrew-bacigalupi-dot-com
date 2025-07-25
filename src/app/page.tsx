@@ -275,7 +275,7 @@ export default function Home() {
 
         <a
             className=" flex text-blue-400 underline mb-16"
-            href="/LavnerVis.ods"
+            href="/LavnerFinal.ods"
           >
             Lavner Data Visualization
         </a>
