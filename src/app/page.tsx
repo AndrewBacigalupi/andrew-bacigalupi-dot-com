@@ -272,14 +272,6 @@ export default function Home() {
             </div>
           </section>
         </div>
-
-        <a
-            className=" flex text-blue-400 underline mb-16"
-            href="/LavnerFinal.ods"
-          >
-            Lavner Data Visualization
-        </a>
-
       </main>
       <BottomNavBar />
     </div>
