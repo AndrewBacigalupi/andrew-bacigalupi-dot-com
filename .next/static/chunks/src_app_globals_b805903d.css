@@ -453,12 +453,12 @@
     margin-bottom: calc(var(--spacing) * 14);
   }
 
-  .mb-16 {
-    margin-bottom: calc(var(--spacing) * 16);
-  }
-
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
+  }
+
+  .mb-24 {
+    margin-bottom: calc(var(--spacing) * 24);
   }
 
   .-ml-2 {
@@ -1059,6 +1059,14 @@
 
   .text-foreground {
     color: var(--foreground);
+  }
+
+  .text-gray-200 {
+    color: var(--color-gray-200);
+  }
+
+  .text-gray-300 {
+    color: var(--color-gray-300);
   }
 
   .text-gray-400 {

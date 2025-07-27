@@ -116,7 +116,7 @@ export const DATA = {
     },
     {
       title: "Golf Swing Analysis Application",
-      description: "Used Google’s MediaPipe and statistics to analyze golf swings. Integrated with MySQL and a TKinter GUI for visual analysis and stored results for users.",
+      description: "Used Google’s MediaPipe and original statistical measurements to analyze golf swings. Compared user-submitted swing videos to Rory McIlroy, evauluating areas for improvement.",
       dates: "Jan - April 2024",
       technologies: ["MediaPipe", "MySQL", "SciPy", "TKinter", "Custom Statistics"],
       href: "#",
@@ -125,7 +125,7 @@ export const DATA = {
         {
           icon: "/github.png",
           type: 'Source',
-          href: 'https://github.com/andrewbacigalupi/golf-swing-analysis',
+          href: 'https://github.com/AndrewBacigalupi/golf-swing-analysis',
         }
       ]
     },

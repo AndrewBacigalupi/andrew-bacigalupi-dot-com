@@ -271,9 +271,17 @@ export default function Home() {
               </BlurFade>
             </div>
           </section>
+          <h4 className="text-center text-xs text-gray-400 mb-24">
+            Template from <a className="underline" href="https://github.com/dillionverma">Dillion Verma</a>
+          </h4>
+          
         </div>
+        
       </main>
       <BottomNavBar />
+
+
+
     </div>
   );
 }

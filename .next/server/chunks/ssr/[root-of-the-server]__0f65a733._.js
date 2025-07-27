@@ -334,7 +334,7 @@ const DATA = {
         },
         {
             title: "Golf Swing Analysis Application",
-            description: "Used Google’s MediaPipe and statistics to analyze golf swings. Integrated with MySQL and a TKinter GUI for visual analysis and stored results for users.",
+            description: "Used Google’s MediaPipe and original statistical measurements to analyze golf swings. Compared user-submitted swing videos to Rory McIlroy, evauluating areas for improvement.",
             dates: "Jan - April 2024",
             technologies: [
                 "MediaPipe",
@@ -349,7 +349,7 @@ const DATA = {
                 {
                     icon: "/github.png",
                     type: 'Source',
-                    href: 'https://github.com/andrewbacigalupi/golf-swing-analysis'
+                    href: 'https://github.com/AndrewBacigalupi/golf-swing-analysis'
                 }
             ]
         },
@@ -1563,21 +1563,31 @@ function Home() {
                                 fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 253,
                                 columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                className: "text-center text-xs text-gray-400 mb-24",
+                                children: [
+                                    "Template from ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        className: "underline",
+                                        href: "https://github.com/dillionverma",
+                                        children: "Dillion Verma"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/page.tsx",
+                                        lineNumber: 275,
+                                        columnNumber: 27
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/page.tsx",
+                                lineNumber: 274,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/page.tsx",
                         lineNumber: 230,
                         columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        className: " flex text-blue-400 underline mb-16",
-                        href: "/CustomPERPractice.ods",
-                        children: "LavnerSheets"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 276,
-                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
@@ -1587,7 +1597,7 @@ function Home() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(BottomNavBar, {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 284,
+                lineNumber: 281,
                 columnNumber: 7
             }, this)
         ]
