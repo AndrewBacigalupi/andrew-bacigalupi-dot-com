@@ -253,7 +253,7 @@ export default function Home() {
           <section className="mb-20">
             <div className="grid items-center justify-start gap-4 py-12 w-full mb-14">
               <BlurFade delay={BLUR_FADE_DELAY * 10}>
-                <div className="space-y-3 mb-10">
+                <div className="space-y-3">
                   <h2 className="text-3xl font-bold  sm:text-5xl ">
                     Get in Touch
                   </h2>

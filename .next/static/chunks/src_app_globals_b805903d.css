@@ -441,10 +441,6 @@
     margin-bottom: calc(var(--spacing) * 5);
   }
 
-  .mb-10 {
-    margin-bottom: calc(var(--spacing) * 10);
-  }
-
   .mb-12 {
     margin-bottom: calc(var(--spacing) * 12);
   }
@@ -1059,14 +1055,6 @@
 
   .text-foreground {
     color: var(--foreground);
-  }
-
-  .text-gray-200 {
-    color: var(--color-gray-200);
-  }
-
-  .text-gray-300 {
-    color: var(--color-gray-300);
   }
 
   .text-gray-400 {
