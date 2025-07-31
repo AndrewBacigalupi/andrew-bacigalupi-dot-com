@@ -113,7 +113,7 @@ export default function Home() {
                   alt={DATA.name}
                   width={240}
                   height={240}
-                  className=" object-cover w-[200px] h-[200px] md:w-[290px] md:h-[210px] transition-all duration-300 hover:scale-104 hover:text-white hover:bg-blue-200 transition-transform ease-in-out mr-4"
+                  className=" object-cover w-[200px] h-[200px] md:w-[290px] md:h-[210px] transition-all duration-300 hover:scale-104 hover:text-white hover:bg-blue-200 transition-transform ease-in-out md:mr-4"
                   style={{ display: "block" }}
                 />
               </Link>

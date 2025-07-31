@@ -1103,7 +1103,7 @@ function Home() {
                                         alt: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$resume$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DATA"].name,
                                         width: 240,
                                         height: 240,
-                                        className: " object-cover w-[200px] h-[200px] md:w-[290px] md:h-[210px] transition-all duration-300 hover:scale-104 hover:text-white hover:bg-blue-200 transition-transform ease-in-out mr-4",
+                                        className: " object-cover w-[200px] h-[200px] md:w-[290px] md:h-[210px] transition-all duration-300 hover:scale-104 hover:text-white hover:bg-blue-200 transition-transform ease-in-out md:mr-4",
                                         style: {
                                             display: "block"
                                         }
