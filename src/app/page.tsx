@@ -72,7 +72,7 @@ export default function Home() {
       <section className="max-w-4xl w-full mx-auto flex flex-col md:flex-row text-left gap-6 px-4 pb-2">
         {/* Left: Title and About */}
         <div className="flex flex-col items-start text-left w-full gap-4">
-          <div className="mt-5 mb-5 text-center sm:text-left w-full">
+          <div className="mt-5 mb-5 text-left w-full">
             <BlurFadeText
               delay={BLUR_FADE_DELAY}
               className="text-4xl font-bold"
