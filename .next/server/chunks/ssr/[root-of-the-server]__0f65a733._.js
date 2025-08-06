@@ -306,7 +306,7 @@ const DATA = {
     ],
     projects: [
         {
-            title: "LearnToScode",
+            title: "Iterly",
             description: "Entry-level coding site for problem solving on large scale input data, giving learners hands on practice.",
             dates: "June 2025 - Present",
             technologies: [
@@ -317,8 +317,8 @@ const DATA = {
                 "Drizzle",
                 "GitHub OAuth"
             ],
-            href: "www.learn-to-scode-rho.vercel.app",
-            image: "/lts.png",
+            href: "https://learn-to-scode-rho.vercel.app",
+            image: "/iterly.png",
             links: [
                 {
                     icon: "/www.png",
@@ -328,7 +328,7 @@ const DATA = {
                 {
                     icon: "/github.png",
                     type: 'Source',
-                    href: 'https://github.com/andrewbacigalupi/learn-to-scode'
+                    href: 'https://github.com/andrewbacigalupi/iterly-learn-to-code'
                 }
             ]
         },
