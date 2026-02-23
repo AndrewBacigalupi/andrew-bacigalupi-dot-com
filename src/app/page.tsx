@@ -46,11 +46,11 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <div className="prose max-w-full text-pretty font-sans leading-relaxed text-muted-foreground dark:prose-invert text-md">
+          <div className="prose max-w-full text-pretty font-sans leading-relaxed  dark:prose-invert text-md">
             <Markdown>{DATA.summary}</Markdown>
           </div>
           <div>
-            <p className="mt-6 prose max-w-full text-pretty font-sans leading-relaxed text-muted-foreground dark:prose-invert text-md">
+            <p className="mt-6 prose max-w-full text-pretty font-sans leading-relaxed dark:prose-invert text-md">
               I like to share my thoughts <a className="text-blue-300 hover:text-blue-100" href="/thoughts">here</a>.
             </p>
           </div>

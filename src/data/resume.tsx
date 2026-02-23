@@ -18,7 +18,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Minneapolis,+MN",
   description:"",
   summary:
-    "I'm studying CS + Applied Math and a little Philosophy in the School of Engineering at Tufts. I'm passionate about impactful computing and solutions that better the lives of others. I'm most interested in software development and statistical analysis in the natural and social sciences, including medicine and public health, computational biology/ecology, non-profit organizations, or any similar work that seeks to make a difference.",
+    "I'm studying CS + Applied Math in the School of Engineering at Tufts. I'm passionate about impactful computing and solutions that better the lives of others. I'm most interested in software development and statistical analysis in the natural and social sciences, including medicine and public health, computational biology/ecology, non-profit organizations, or any similar work that seeks to make a difference.",
   avatarUrl: "/YSB.JPG",
   skills: [
   { name: "Python",                      icon: Icons.python },
