@@ -67,7 +67,12 @@ outcomes of an action are the most important when reasoning about its morality.
  
  Thanks for reading!`,
   },
-
+{
+    slug: "hume-enquiry",
+    title: "On Hume and the Problem Of Inductive Reasoning",
+    date: "2024-03-09",
+    content: `Coming Soon: an exploration of David Hume's **An Enquiry Concerning Human Understanding**, sections IV and V.`,
+  },
 {
     slug: "tufts-courses",
     title: "Tufts Course Review",
@@ -75,6 +80,7 @@ outcomes of an action are the most important when reasoning about its morality.
     content: `Coming Soon: my review of the courses I've taken as a Computer Science and 
     Applied Math major at Tufts.`,
   },
+
 ];
 
 
