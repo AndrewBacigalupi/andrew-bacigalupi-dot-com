@@ -23,7 +23,7 @@ export default function Page() {
         <div className="gap-3 flex flex-col order-2 md:order-1 flex-1">
           <BlurFadeText
             delay={BLUR_FADE_DELAY}
-            className="text-6xl font-semibold tracking-tighter sm:text-5xl lg:text-7xl leading-tight"
+            className="text-5xl font-semibold tracking-tighter sm:text-7xl leading-tight"
             yOffset={8}
             text="Andrew Bacigalupi"
           />
@@ -148,6 +148,9 @@ export default function Page() {
           <ContactSection />
         </BlurFade>
       </section>
+      <div className="flex justify-center">
+        <p className="text-xs text-muted-foreground">Thanks to <a className="underline hover:text-gray-300" href="https://dillion.io/">Dillion Verma</a> for the template!</p>
+      </div>
     </main>
   );
 }
