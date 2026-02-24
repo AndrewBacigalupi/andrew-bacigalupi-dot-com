@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon, GitBranchIcon, BarChart2Icon, PenToolIcon, LayoutIcon, FlaskConicalIcon, BrainCircuitIcon, TableIcon } from "lucide-react";
+import { HomeIcon, Instagram, NotebookIcon, GitBranchIcon, BarChart2Icon, PenToolIcon, LayoutIcon, FlaskConicalIcon, BrainCircuitIcon, TableIcon } from "lucide-react";
 import { Python } from "@/components/ui/svgs/python";
 import { Java } from "@/components/ui/svgs/java";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
@@ -34,8 +34,7 @@ export const DATA = {
   { name: "Google Suite",                icon: Icons.googleworkspace },
   { name: "SciPy / NumPy",               icon: Icons.numpy },
   { name: "Scikit-Learn",                icon: Icons.scikitlearn },
-  { name: "Matplotlib",                  icon: Icons.matplotlib },
-  { name: "Seaborn",                     icon: Icons.matplotlib },
+  { name: "Matplotlib/Seaborn",                  icon: Icons.matplotlib },
   { name: "Pandas",                      icon: Icons.pandas },
   { name: "Statistical Analysis",       icon: Icons.statistics },
   { name: "Software Design",             icon: BrainCircuitIcon },
@@ -43,11 +42,13 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/resume.pdf", icon: FileUser, label: "Resume" },
+    { href: "/thoughts", icon: NotebookIcon, label: "Blog" }
   ],
   contact: {
     email: "andrew.bacigalupi@gmail.com",
     tel: "605-252-1868",
     social: {
+      
       GitHub: {
         name: "GitHub",
         url: "https://github.com/andrewbacigalupi",
@@ -60,6 +61,13 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
+      Instagram: {
+        name: "Instagram",
+        url: "https://www.instagram.com/andrewbacigalupi/",
+        icon: Icons.instagram,
+        navbar: true,
+      },
+      
       email: {
         name: "Send Email",
         url: "mailto:andrew.bacigalupi@gmail.com",

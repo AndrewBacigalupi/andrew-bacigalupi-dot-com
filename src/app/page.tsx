@@ -28,13 +28,13 @@ export default function Page() {
             text="Andrew Bacigalupi"
           />
         </div>
-        <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2 shrink-0">
+        <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2 shrink-0 flex justify-center md:block order-1 md:order-2 shrink-0">
           <Image
             src={DATA.avatarUrl}
             alt={DATA.name}
             width={240}
             height={240}
-            className="rounded-xl object-cover w-[250px] h-[200px] md:w-[230px] md:h-[210px] transition-all duration-300 hover:scale-101 hover:bg-blue-200 ease-in-out md:mr-4"
+            className=" mx-0 rounded-xl object-cover w-[250px] h-[200px] md:w-[230px] md:h-[210px] transition-all duration-300 hover:scale-101 hover:bg-blue-200 ease-in-out md:mr-4"
             style={{ display: "block" }}
           />
         </BlurFade>
