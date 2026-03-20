@@ -11,6 +11,7 @@ import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
+import { cn } from "@/lib/utils";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -31,7 +32,7 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2 shrink-0 flex justify-center md:block order-1 md:order-2 shrink-0">
           <Image
             src={DATA.avatarUrl}
-            alt={DATA.name}
+            alt='So glad you could make it to my site! This is a selfie of Andrew Bacigalupi on a beach in Massachussetts.'
             width={240}
             height={240}
             className=" mx-0 rounded-xl object-cover w-[250px] h-[200px] md:w-[230px] md:h-[210px] transition-all duration-300 hover:scale-101 hover:bg-blue-200 ease-in-out md:mr-4"
@@ -90,10 +91,15 @@ export default function Page() {
                       <img
                         src={education.logoUrl}
                         alt={education.school}
-                        className="size-8 md:size-10 p-1 border rounded-full shadow ring-2 ring-border overflow-hidden object-contain flex-none"
+                        className={cn(
+                          "size-8 md:size-10 border rounded-full shadow ring-2 ring-border bg-white dark:bg-white flex-none",
+                          education.logoUrl.includes("tuftsLogo")
+                            ? "object-contain p-1"
+                            : "object-cover"
+                        )}
                       />
                     ) : (
-                      <div className="size-8 md:size-10 p-1 border rounded-full shadow ring-2 ring-border bg-muted flex-none" />
+                      <div className="size-8 md:size-10 border rounded-full shadow ring-2 ring-border bg-muted flex-none" />
                     )}
                     <div className="flex-1 min-w-0 flex flex-col gap-0.5">
                       <div className="font-semibold leading-none flex items-center gap-2">

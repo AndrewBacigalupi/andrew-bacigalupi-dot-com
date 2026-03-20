@@ -14,11 +14,11 @@ export default function BlogPostPage({ params }: { params: Promise<{ slug: strin
   }
 
   return (
-    <div className="flex flex-col items-center w-full min-h-screen text-gray-900">
+    <div className="flex flex-col items-center w-full min-h-screen text-gray-900 dark:text-gray-100">
       <main className="max-w-5xl w-full px-4 pt-16">
         <Link 
           href="/thoughts"
-          className="text-gray-600 hover:text-gray-900 mb-8 inline-block text-sm"
+          className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 mb-8 inline-block text-sm"
           style={{ fontFamily: 'Georgia, serif' }}
         >
           ← Back to thoughts
@@ -27,7 +27,7 @@ export default function BlogPostPage({ params }: { params: Promise<{ slug: strin
         <h1 className="text-5xl font-bold mb-4 mt-4 tracking-tight" style={{ fontFamily: 'Georgia, serif' }}>
           {post.title}
         </h1>
-        <p className="text-sm text-gray-600 mb-12 border-b border-gray-300 pb-6" style={{ fontFamily: 'Georgia, serif' }}>
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-12 border-b border-gray-300 dark:border-gray-700 pb-6" style={{ fontFamily: 'Georgia, serif' }}>
           {new Date(post.date).toLocaleDateString('en-US', { 
             year: 'numeric', 
             month: 'long', 
@@ -36,7 +36,7 @@ export default function BlogPostPage({ params }: { params: Promise<{ slug: strin
         </p>
 
         <article 
-          className="text-gray-900 w-full" 
+          className="text-gray-900 dark:text-gray-100 w-full" 
           style={{ fontFamily: 'Georgia, serif' }}
         >
           <div className="mb-36">
@@ -50,9 +50,9 @@ export default function BlogPostPage({ params }: { params: Promise<{ slug: strin
                 li: ({ ...props }) => <li className="text-lg leading-7" style={{ fontFamily: 'Georgia, serif' }} {...props} />,
                 strong: ({ ...props }) => <strong className="font-bold" style={{ fontFamily: 'Georgia, serif' }} {...props} />,
                 em: ({ ...props }) => <em className="italic" style={{ fontFamily: 'Georgia, serif' }} {...props} />,
-                a: ({ ...props }) => <a className="text-blue-600 hover:underline" style={{ fontFamily: 'Georgia, serif' }} {...props} />,
-                code: ({ ...props }) => <code className="bg-gray-100 px-1.5 py-0.5 rounded text-sm font-mono" {...props} />,
-                blockquote: ({ ...props }) => <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6 text-gray-700" style={{ fontFamily: 'Georgia, serif' }} {...props} />,
+                a: ({ ...props }) => <a className="text-blue-600 dark:text-blue-400 hover:underline" style={{ fontFamily: 'Georgia, serif' }} {...props} />,
+                code: ({ ...props }) => <code className="bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-sm font-mono" {...props} />,
+                blockquote: ({ ...props }) => <blockquote className="border-l-4 border-gray-300 dark:border-gray-700 pl-4 italic my-6 text-gray-700 dark:text-gray-300" style={{ fontFamily: 'Georgia, serif' }} {...props} />,
               }}
             >
               {post.content}
@@ -63,4 +63,3 @@ export default function BlogPostPage({ params }: { params: Promise<{ slug: strin
     </div>
   );
 }
-

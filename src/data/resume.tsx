@@ -87,7 +87,7 @@ export const DATA = {
       start: "January 2025",
       end: "Present",
       description:
-        "TA for Programming Fundamentals (Spring 2025) and Data Structures (Spring 2026–Present). Provide constructive feedback on weekly homework, labs, and projects. Grade assignments and exams, and lead weekly office hours fostering collaborative learning and problem-solving skills.",
+        "TA for CS10: CSProgramming Fundamentals (Spring 2025) and CS15: Data Structures (Spring 2026–Present). Provide constructive feedback on weekly homework, labs, and projects. Grade assignments and exams, and lead weekly office hours fostering collaborative learning and problem-solving skills.",
     },
     {
       company: "Tufts JumboCode",

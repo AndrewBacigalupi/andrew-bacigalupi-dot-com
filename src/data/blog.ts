@@ -77,8 +77,64 @@ outcomes of an action are the most important when reasoning about its morality.
     slug: "tufts-courses",
     title: "Tufts Course Review",
     date: "2024-01-04",
-    content: `Coming Soon: my review of the courses I've taken as a Computer Science and 
-    Applied Math major at Tufts.`,
+    content: `# My Coursework
+
+## Freshman Year
+
+### Fall
+- MATH 34 - Calc II
+- PHYS 11 - Mechanics
+- CS 11   - Intro to CS
+- PHIL 24 - Intro to Ethics
+
+### Spring
+- MATH 42 - Calc III
+- CS 15   - Data Structures
+- EN1     - Engineering for the Customer
+- CS 61   - Discrete Math
+
+---
+
+## Sophomore Year
+
+### Fall
+- MATH 70 - Linear Algebra
+- BIO 13  - Cells and Organisms
+- CS 40   - Machine Structure and Assembly
+- PHIL 15 - Intro to Linguistics
+
+### Spring
+- CS 160: Algorithms
+- CS 135 - Machine Learning
+- EE 104 - Probability
+- Differential Equations
+- PHIL 152 - History of Modern Philosophy
+
+---
+
+## Junior Year (plans)
+
+### Fall
+- CS 105 - Programming Languages
+- MATH 166 - Statistics
+- Real Analysis I
+- CS Elective / CS 170 Theory Equivalent
+- Philosophy or History Course
+
+### Spring (Abroad)
+- CS Elective
+- Maybe CS Theory
+- Complex Variables Equivalent
+- Modeling / Numerical Linear Algebra Equivalent
+- HASS Elective
+
+---
+
+## Senior Year
+
+Plan to take lots of statistics, computing, and math courses. 
+
+`,
   },
 
 ];
