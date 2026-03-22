@@ -52,7 +52,7 @@ export default function Page() {
           </div>
           <div>
             <p className="mt-6 prose max-w-full text-pretty font-sans leading-relaxed dark:prose-invert text-md">
-              I like to share my thoughts <a className="text-blue-300 hover:text-blue-100" href="/thoughts">here</a>.
+              I like to share my writing and thoughts <a className="text-blue-300 hover:text-blue-100" href="/thoughts">here</a>.
             </p>
           </div>
         </BlurFade>

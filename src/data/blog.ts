@@ -64,13 +64,12 @@ outcomes of an action are the most important when reasoning about its morality.
  believe that the first form of Kant’s categorical imperative survives these 
  objections and is, in general, an incredibly accurate way to evaluate the 
  morality of our actions. 
- 
- Thanks for reading!`,
+ `,
   },
 {
     slug: "hume-enquiry",
     title: "On Hume and the Problem Of Inductive Reasoning",
-    date: "2024-03-09",
+    date: "2024-03-21",
     content: `In the hopes of clarifying his empiricist philosophy and expanding on the 
     work of John Locke, David Hume published An Enquiry Concerning Human Understanding 
     in 1748. I will present Hume’s distinction between relations of ideas and 
@@ -102,12 +101,12 @@ If this premise regarding the contingency of our belief in matters of fact is ac
 	
 Hume isn’t as much skeptically declaring that scientific and probabilistic endeavors are meaningless or illegitimized because of their dependence on induction. He is offering the idea that they are inherently limited by the nature of their formation. It is not a problem that these schools of thought are not grounded in logical demonstration and rational justification—how could they be? We exist in a world that doesn’t tell us its secrets, meaning we are left to question it and figure out how it works through nothing more than observation. Hume references the fact that we discovered the functionality of our limbs and were able to sufficiently use them long before knowledge of the underlying biology was established. It is through this inductive abstraction that we have developed all of our understanding of the world, and we would be nowhere, maybe not even still alive, without it.
  	
-There is a natural desire to understand specific relationships in the world with complete certainty, but that desire misinterprets the scope of every matter of fact: it could very well be otherwise. Hume’s psychological conclusion regarding the problem of induction leaves many unsatisfied in terms of skeptical worries, lacking trust towards this mysterious, natural propensity. I think that his conclusions can be furthered by emphasizing a pragmatic surrender of the necessity and possibility of absolute reason regarding matters of fact. What are we to do other than make use of the experience available to us? If what we glean from his arguments is that all forms of prediction are incapable of being rationally justified, then he is correct that denigrating what seems to be the best method among them is unproductive. Choosing optimally, as in Bayesian reasoning, is not completely misguided on the basis that its inductive nature is logically circular. In rationalizing our inductive nature, Hume argues that we do it because it is natural, and I add that it is simply the best we as humans can do. In this way, our unjustified but natural conclusions regarding matters of fact are all we can come to have and all we need to exist. `,
+dThere is a natural desire to understand specific relationships in the world with complete certainty, but that desire misinterprets the scope of every matter of fact: it could very well be otherwise. Hume’s psychological conclusion regarding the problem of induction leaves many unsatisfied in terms of skeptical worries, lacking trust towards this mysterious, natural propensity. I think that his conclusions can be furthered by emphasizing a pragmatic surrender of the necessity and possibility of absolute reason regarding matters of fact. What are we to do other than make use of the experience available to us? If what we glean from his arguments is that all forms of prediction are incapable of being rationally justified, then he is correct that denigrating what seems to be the best method among them is unproductive. Choosing optimally, as in Bayesian reasoning, is not completely misguided on the basis that its inductive nature is logically circular. In rationalizing our inductive nature, Hume argues that we do it because it is natural, and I add that it is simply the best we as humans can do. In this way, our unjustified but natural conclusions regarding matters of fact are all we can come to have and all we need to exist. `,
   },
 {
     slug: "tufts-courses",
     title: "Tufts Course Review",
-    date: "2024-01-04",
+    date: "2024-03-24",
     content: `# My Coursework
 
 ## Freshman Year
@@ -151,6 +150,37 @@ Plan to take lots of statistics, computing, and math courses.
 
 `,
   },
+
+  {
+    slug: "john-rawls",
+    title: "Justice as Fairness: John Rawls and the Original Position",
+    date: "2024-02-26",
+    content: `
+*Written in May 2025*
+
+A largely influential notion in political philosophy is that of a social contract, the idea that members of a society have an agreement, even covenant, with their fellow members to uphold certain rules and norms for the common good. The work and ideas of John Rawls, one of the most famous political philosophers in the 20th century, centered around the idea of constructing a just society through some sort of contract. To different thinkers, the idea of justice has been associated with internal harmony, general equality, and the distribution of what is deserved. To Rawls, justice is importantly built upon fairness. 
+
+Rawls believed that bindings to social contracts drawn up by the original founders of a society could easily become obsolete or unjust, so there must exist some dynamic solution that would persist as an up-to-date agreement between members of a society. Rawls presents his version of a hypothetical contract as one that must be unanimously agreed upon, recognized to be serious and perpetual by all parties, and contain a foundational level of fairness. For example, anything that favors someone over another on the basis of something they don’t deserve, which to Rawls included biological traits, upbringing, talent, or other luck-based blessings, is simply unfair. These factors must be discarded when building a conception of a just society. 
+
+Rawls begins his societal contract built on justice as fairness by constructing what he calls the Original Position. The Original Position is not, Rawls makes clear, a legitimate or historical circumstance, but merely a hypothetical situation in which the rules and contract of a just society can be found. Behind a “veil of ignorance,” those in the Original Position have no knowledge of their personal identity, abilities, or status. The blind are then simply asked to define a society in which they will live. It becomes clear, through this scenario, that people will choose rules that lend themselves to equality and fairness, as any rule that strongly favors a particular group could easily disfavor whomever they become. Rawls assumes the participants are rational and self-interested, concerned only with efficiently maximizing their own well-being. Rawls also thinks that as this contract is perpetual, these rational, self-interested agents will make decisions according to a maximin principle, one that focuses on minimizing bad outcomes and cutting losses rather than choosing the best possible best-case scenario.
+
+Rawls specifically requires these constraints because his justice as fairness is only achieved with these logical assumptions. The veil ensures fairness, while self-interest and rationality motivate agents to build a contract everyone can trust. Without these constraints, those in the Original Position will favor unjust rules. The understanding that each could potentially be the worst off is what makes Rawls’ contract uniquely fair. It leads to potentially the most impressive conclusion among moral theory and especially in social contract theory: each will simply act in their own self-interest and that, in itself, will create a just society. 
+
+Two main principles arise from Rawls’ Original Position: the Liberty Principle and the Difference Principle. Mostly occurring as a result of an application of the maximin principle, both the Liberty Principle and the Difference Principle are means of cutting losses, something Rawls posits rational agents in the Original Position will favor. According to the Liberty Principle, if you didn’t know what kind of person you would be in society, it is logical that you would want to avoid being someone with limited political liberty, so favoring a society with freedom of speech, press, religion, and political opportunity is the best way to do just that. The Difference Principle is one of the strongest forms of the maximin principle in that it says that these rational agents will choose to have any inequality benefit the least advantaged. Here, Rawls, and those in the Original Position, are acknowledging that some inequality may be natural (exploitation of workers in a free market that encourages innovation), but this inequality, even if it produces overall good for the society, is simply unjust. Any institution that produces “good” at the expense of others would never be condoned by a group of people in the Original Position who may become those most harmed. In this way, moral concepts like the maximization of utility are not a result of Rawls’ theory, because net good is not his meaning of justice. 
+
+One of the most popular objections to Rawls’ Original Position, and especially the veil of ignorance, is that it undermines personal liberty and prioritizes a fair distribution of resources, which critics like Robert Nozick do not believe is a just, or deserving, distribution. This libertarian argument is often made by advocates of completely free markets, people who consider productive property rights (to assets or resources that generate value) to be a part of basic, individual liberties like free speech. If Rawls claims to support the Liberty Principle, then the fact that the Difference Principle and the Original Position propose redistribution of resources for the benefit of the worst off contradicts this individual right of property. Nozick believed that structures designed to help the worse-off at the expense of the better-off, such as excess taxation for the rich, violated the liberty of the rich. As the two principles contradict each other, objectors argue, the Original Position cannot be a productive way to construct a social contract. 
+
+To me, this objection doesn’t appreciate the Original Position in its entirety. The idea is that it forces you to consider inequalities as if you were the victim, and whether or not you would allow this inequality to persist if there was a chance you would be harmed by it. Just the fact that someone believes their property to be deserved because they earned it does not discount Rawls’ proposal that true justice is in the fair distribution of goods. A redistribution may actually be the most just way to govern, even if it goes against the dominant norms in current society. Rawls would claim that property rights are not necessarily an inherent personal liberty at all, but rather a function of society. To go further, I think Rawls would argue that absolute productive property rights easily result in inequality or abuse of power or resources, which can struggle to be argued as just or legitimately considerate of the goal of a fair society. It may be difficult for us to internalize this impartial fairness that resides within the Original Position and it may be hard to stomach what we believe to be our rights as members in a generally libertarian society, but that does not necessarily imply that this hypothetical conception of justice is not true. 
+
+However, Nozick’s argument does seem to object to the plausibility of this theory in terms of its institution. The hypothetical nature of the Original Position may just be too idealistic. While it is logical for people to endorse limits on property rights when imagining themselves in any position, it is harder to ensure that, once inequalities emerge, the advantaged members of society would be able to consistently support institutions that only benefit the worst-off and give up private property rights. The system that was fair under the veil may not seem so after it’s lifted, and this could lead to political instability. 
+
+John Rawls presents the Original Position as a truly fair manner in which a social contract could be created, ensuring lucky qualities that no one deserves are kept out of the process to maintain impartiality. Several principles, including the maximin principle (prioritizing risk avoidance), the Liberty Principle (securing basic rights and freedoms), and the Difference Principle (allowing only inequalities that benefit everyone, especially the worst-off) emerge from the considerations of these rational, self-interested, and veiled agents in the Original Position. Importantly, Rawls argues, these agents will construct a fair, and therefore just, society with institutions of distributive justice, rather than on desert or what maximizes overall utility. An objection from Nozick argues that productive property rights are basic liberties, meaning the Difference Principle contradicts the Liberty Principle. However, it follows from the inherent fairness of the Original Position that rational, self-interested agents will select distributive justice. The fact that some of us, when considering our own luck and favor, hold on to our property rights is a practical obstacle but does not imply that distributive justice is not what is most fair. 
+
+ 
+
+`,
+  },
+
 
 ];
 
