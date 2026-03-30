@@ -148,7 +148,7 @@ export const DATA = {
   projects: [
     {
       title: "Iterly",
-      href: "https://learn-to-scode-rho.vercel.app",
+      href: "https://iterly-learn.com",
       dates: "June 2025 – Present",
       active: true,
       description:
@@ -223,5 +223,5 @@ export const DATA = {
       video: "",
     },
   ],
-  hackathons: [],
+
 }
