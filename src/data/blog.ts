@@ -9,7 +9,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "kant",
     title: "Kant: Some Ideas on My Favorite Moral Philosopher",
-    date: "2024-01-04",
+    date: "2026-01-04",
     content: `
 *Written in March 2025*
 
@@ -69,7 +69,7 @@ outcomes of an action are the most important when reasoning about its morality.
 {
     slug: "hume-enquiry",
     title: "On Hume and the Problem Of Inductive Reasoning",
-    date: "2024-03-21",
+    date: "2026-03-21",
     content: `In the hopes of clarifying his empiricist philosophy and expanding on the 
     work of John Locke, David Hume published An Enquiry Concerning Human Understanding 
     in 1748. I will present Hume’s distinction between relations of ideas and 
@@ -106,7 +106,7 @@ dThere is a natural desire to understand specific relationships in the world wit
 {
     slug: "tufts-courses",
     title: "Tufts Course Review",
-    date: "2024-03-24",
+    date: "2026-04-1",
     content: `# My Coursework
 
 ## Freshman Year
@@ -154,7 +154,7 @@ Plan to take lots of statistics, computing, and math courses.
   {
     slug: "john-rawls",
     title: "Justice as Fairness: John Rawls and the Original Position",
-    date: "2024-02-26",
+    date: "2026-02-26",
     content: `
 *Written in May 2025*
 
