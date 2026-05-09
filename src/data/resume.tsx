@@ -18,7 +18,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Minneapolis,+MN",
   description:"",
   summary:
-    "I'm studying CS + Applied Math in the School of Engineering at Tufts. I'm passionate about impactful computing and solutions that better the lives of others. I'm most interested in software development and statistical analysis in the natural and social sciences, including medicine and public health, computational biology/ecology, non-profit organizations, or any similar work that seeks to make a difference.",
+    "I'm passionate about impactful computing and solutions that better the lives of others. I'm most interested in software development and mathematical analysis in medicine and public health, biology/ecology, education, non-profit organizations, or any similar work that seeks to make a difference.",
   avatarUrl: "/YSB.JPG",
   skills: [
   { name: "Python",                      icon: Python },
@@ -77,6 +77,16 @@ export const DATA = {
     },
   },
   work: [
+    {
+      company: "Applied Invention",
+      href: "https://www.tufts.edu/",
+      badges: ["Software Engineering"],
+      location: "Cambridge, MA",
+      title: "Software Engineer",
+      logoUrl: "/appliedinvention.jpg",
+      start: "May 2026",
+      end: "Present"
+    },
     {
       company: "Tufts University – CS Department",
       href: "https://www.tufts.edu/",
@@ -138,7 +148,7 @@ export const DATA = {
     },
     {
       school: "Highland Park Senior High School",
-      href: "#",
+      href: "",
       degree: "Full International Baccalaureate Diploma",
       logoUrl: "/HPLogo.png",
       start: "2020",

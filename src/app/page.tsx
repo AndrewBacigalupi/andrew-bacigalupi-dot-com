@@ -32,7 +32,7 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2 shrink-0 flex justify-center md:block order-1 md:order-2 shrink-0">
           <Image
             src={DATA.avatarUrl}
-            alt='So glad you could make it to my site! This is a selfie of Andrew Bacigalupi on a beach in Massachussetts.'
+            alt='So glad you could make it to my site! This is a selfie of me, Andrew Bacigalupi on a beach in Massachussetts.'
             width={240}
             height={240}
             className=" mx-0 rounded-xl object-cover w-[250px] h-[200px] md:w-[230px] md:h-[210px] transition-all duration-300 hover:scale-101 hover:bg-blue-200 ease-in-out md:mr-4"
@@ -40,6 +40,7 @@ export default function Page() {
           />
         </BlurFade>
       </div>
+      
 
       {/* About — full width below name + image */}
       <div className="flex min-h-0 flex-col gap-y-2">
@@ -47,14 +48,18 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <div className="prose max-w-full text-pretty font-sans leading-relaxed  dark:prose-invert text-md">
-            <Markdown>{DATA.summary}</Markdown>
+          <div className="mt-2 prose max-w-full text-pretty font-sans leading-relaxed  dark:prose-invert text-md">
+            I'm from St. Paul, <a className="text-emerald-700 hover:text-green-200" href="https://www.exploreminnesota.com/live/why-move-to-minnesota">MN</a>, and I'm studying CS + Applied Math in the School of Engineering at <a className="text-blue-400 hover:text-blue-200" href="https://tufts.edu/">Tufts</a>. <Markdown>{DATA.summary}</Markdown>
           </div>
           <div>
             <p className="mt-6 prose max-w-full text-pretty font-sans leading-relaxed dark:prose-invert text-md">
-              I like to share my writing and thoughts <a className="text-blue-300 hover:text-blue-100" href="/thoughts">here</a>.
+              Currently, I'm interning as a Software Engineer at <a className="text-red-700 hover:text-red-200" href="https://appliedinvention.com/">Applied Invention</a>.
             </p>
           </div>
+
+          <p className="mt-6 prose max-w-full text-pretty font-sans leading-relaxed dark:prose-invert text-md">
+              Big fan of basketball, tennis, pickleball, running, weightlifting, piano, and chess.
+            </p>
         </BlurFade>
       </div>
     </div>
@@ -149,11 +154,6 @@ export default function Page() {
           <HackathonsSection />
         </BlurFade>
       </section> */}
-      <section id="contact">
-        <BlurFade delay={BLUR_FADE_DELAY * 16}>
-          <ContactSection />
-        </BlurFade>
-      </section>
       <div className="flex justify-center">
         <p className="text-xs text-muted-foreground">Thanks to <a className="underline hover:text-gray-300" href="https://dillion.io/">Dillion Verma</a> for the template!</p>
       </div>
