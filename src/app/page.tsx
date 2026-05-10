@@ -17,9 +17,9 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="min-h-dvh flex flex-col gap-14 relative">
+    <main className="min-h-dvh flex flex-col gap-12 relative">
   <section id="hero">
-    <div className="mx-auto w-full max-w-2xl space-y-4">
+    <div className="mx-auto w-full max-w-2xl space-y-4 mb-0">
       <div className="gap-4 flex flex-col md:flex-row justify-between items-start">
         <div className="gap-3 flex flex-col order-2 md:order-1 flex-1">
           <BlurFadeText
@@ -40,6 +40,30 @@ export default function Page() {
           />
         </BlurFade>
       </div>
+      <BlurFade className="mt-6" delay={BLUR_FADE_DELAY}>
+      <div className="relative my-8">
+      
+        <blockquote className="relative italic text-gray-700">
+          <p
+            className="text-xl text-gray-500 leading-relaxed"
+          >
+            Twenty years from now you will be more disappointed by the things you
+            didn&apos;t do than by the ones you did do. So throw off the bowlines!
+            Sail away from safe harbor. Catch the trade winds in your sails.
+          </p>
+
+          <footer className="mt-2 flex items-center gap-3">
+            
+            <cite
+              className="not-italic text-md text-gray-500 tracking-wide"
+            >
+               - H. Jackson Brown Jr.,{" "}
+              <span className="italic font-bold">P.S. I Love You</span>
+            </cite>
+          </footer>
+        </blockquote>
+      </div>
+      </BlurFade>
       
 
       {/* About — full width below name + image */}
@@ -48,22 +72,23 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <div className="mt-2 prose max-w-full text-pretty font-sans leading-relaxed  dark:prose-invert text-md">
+          <div className="mt-2 prose max-w-full text-pretty font-sans leading-relaxed  dark:prose-invert text-lg">
             I'm from St. Paul, <a className="text-emerald-700 hover:text-green-200" href="https://www.exploreminnesota.com/live/why-move-to-minnesota">MN</a>, and I'm studying CS + Applied Math in the School of Engineering at <a className="text-blue-400 hover:text-blue-200" href="https://tufts.edu/">Tufts</a>. <Markdown>{DATA.summary}</Markdown>
           </div>
           <div>
-            <p className="mt-6 prose max-w-full text-pretty font-sans leading-relaxed dark:prose-invert text-md">
+            <p className="mt-6 prose max-w-full text-pretty font-sans leading-relaxed dark:prose-invert text-lg">
               Currently, I'm interning as a Software Engineer at <a className="text-red-700 hover:text-red-200" href="https://appliedinvention.com/">Applied Invention</a>.
             </p>
           </div>
 
-          <p className="mt-6 prose max-w-full text-pretty font-sans leading-relaxed dark:prose-invert text-md">
-              Big fan of basketball, tennis, pickleball, running, weightlifting, piano, and chess.
+          <p className="mt-6 prose max-w-full  font-sans leading-relaxed dark:prose-invert text-lg">
+              Huge fan of basketball, tennis, pickleball, running, weightlifting, piano, and chess.
             </p>
         </BlurFade>
       </div>
     </div>
   </section>
+  
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-6">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
