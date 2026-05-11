@@ -107,23 +107,23 @@ There is a natural desire to understand specific relationships in the world with
   },
 {
     slug: "tufts-courses",
-    title: "Tufts Course Review",
+    title: "Tufts Courses",
     date: "2026-04-1",
-    content: `# My Coursework
+    content: `
 
 ## Freshman Year
 
 ### Fall
-- MATH 34 - Calc II
+- MATH 34 - Calculus II
 - PHYS 11 - Mechanics
-- CS 11   - Intro to CS
-- PHIL 24 - Intro to Ethics
+- CS 11   - Intro to Computer Science
+- EN1 - Engineering for the Customer
 
 ### Spring
-- MATH 42 - Calc III
+- MATH 42 - Calculus III (Multivariable)
 - CS 15   - Data Structures
-- EN1     - Engineering for the Customer
 - CS 61   - Discrete Math
+- PHIL 24 - Intro to Ethics
 
 ---
 
@@ -136,10 +136,10 @@ There is a natural desire to understand specific relationships in the world with
 - PHIL 15 - Intro to Linguistics
 
 ### Spring
-- CS 160: Algorithms
+- CS 160 - Algorithms
 - CS 135 - Machine Learning
 - EE 104 - Probability
-- Differential Equations
+- MATH 51 - Differential Equations
 - PHIL 152 - History of Modern Philosophy
 
 ---
@@ -148,7 +148,6 @@ There is a natural desire to understand specific relationships in the world with
 
 TBD
 
-Plan to take lots of statistics, computing, and math courses. 
 
 `,
   },
