@@ -9,7 +9,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "kant",
     title: "Kantian Ethics",
-    date: "2026-01-04",
+    date: "2025-02-04",
     content: `
 *Written in March 2025 for Tufts PHIL24: Ethics*
 
