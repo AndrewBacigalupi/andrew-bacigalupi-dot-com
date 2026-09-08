@@ -1,12 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-import ContactSection from "@/components/section/contact-section";
-// import HackathonsSection from "@/components/section/hackathons-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
@@ -19,7 +15,7 @@ export default function Page() {
   return (
     <main className="min-h-dvh flex flex-col gap-12 relative">
   <section id="hero">
-    <div className="mx-auto w-full max-w-2xl space-y-4 mb-0">
+    <div className="mx-auto w-full max-w-2xl space-y-4">
       <div className="gap-4 flex flex-col md:flex-row justify-between items-start">
         <div className="gap-3 flex flex-col order-2 md:order-1 flex-1">
           <BlurFadeText
@@ -32,7 +28,7 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2 shrink-0 flex justify-center md:block order-1 md:order-2 shrink-0">
           <Image
             src={DATA.avatarUrl}
-            alt='So glad you could make it to my site! This is a selfie of me, Andrew Bacigalupi on a beach in Massachussetts.'
+            alt='So glad you could make it to my site! This is a selfie of Andrew Bacigalupi on a beach in Massachussetts.'
             width={240}
             height={240}
             className=" mx-0 rounded-xl object-cover w-[250px] h-[200px] md:w-[230px] md:h-[210px] transition-all duration-300 hover:scale-101 hover:bg-blue-200 ease-in-out md:mr-4"
@@ -73,17 +69,27 @@ export default function Page() {
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <div className="mt-2 prose max-w-full text-pretty font-sans leading-relaxed  dark:prose-invert text-lg">
-            I'm from St. Paul, <a className="text-emerald-700 hover:text-green-200" href="https://www.exploreminnesota.com/live/why-move-to-minnesota">MN</a>, and I'm studying CS + Applied Math in the School of Engineering at <a className="text-blue-400 hover:text-blue-200" href="https://tufts.edu/">Tufts</a>. <Markdown>{DATA.summary}</Markdown>
+            I'm from St. Paul, <a className="text-emerald-700 hover:text-green-200" href="https://www.exploreminnesota.com/live/why-move-to-minnesota" target="_blank" 
+                rel="noopener noreferrer">MN</a>, and I'm studying CS + Applied Math in the School of Engineering at <a className="text-blue-400 hover:text-blue-200" href="https://tufts.edu/">Tufts</a>. 
+            
+            <Markdown>{DATA.summary}</Markdown>
           </div>
           <div>
             <p className="mt-6 prose max-w-full text-pretty font-sans leading-relaxed dark:prose-invert text-lg">
-              Currently, I'm interning as a Software Engineer at <a className="text-red-700 hover:text-red-200" href="https://appliedinvention.com/">Applied Invention</a>.
+              This past summer, I interned as a Software Engineer at <a className="text-red-700 hover:text-red-200" href="https://appliedinvention.com/"target="_blank" 
+                rel="noopener noreferrer">Applied Invention</a>.
             </p>
           </div>
 
           <p className="mt-6 prose max-w-full  font-sans leading-relaxed dark:prose-invert text-lg">
-              Huge fan of basketball, tennis, pickleball, running, weightlifting, piano, and chess.
-            </p>
+             In my free time, I enjoy basketball, tennis, pickleball, running, weightlifting, piano, and chess.
+          </p>
+          <p className="mt-6 prose max-w-full  font-sans leading-relaxed dark:prose-invert text-lg">
+             Lately, I've been trying to learn to learn jazz and blues improv on the piano, especially where these two types of music can be <a className="text-blue-900 hover:text-blue-200" 
+                href="https://www.youtube.com/shorts/YbVynUMGEpQ" 
+                target="_blank" 
+                rel="noopener noreferrer">mashed up with famous tunes.</a>
+          </p>
         </BlurFade>
       </div>
     </div>

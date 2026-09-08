@@ -18,7 +18,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Minneapolis,+MN",
   description:"",
   summary:
-    "I'm passionate about impactful computing and solutions that better the lives of others. I'm most interested in software development and mathematical analysis in medicine and public health, biology/ecology, education, non-profit organizations, or any similar work that seeks to make a difference.",
+    "I'm most interested in software development and mathematical analysis in medicine, public health, biology/ecology, education, or work in the non-profit sector.",
   avatarUrl: "/YSB.JPG",
   skills: [
   { name: "Python",                      icon: Python },
@@ -85,7 +85,9 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/appliedinvention.jpg",
       start: "May 2026",
-      end: "Present"
+      end: "Present", 
+      description: 
+      "Contributed to the information software layer of an automated greenhouse system designed to make food production more efficient and sustainable in terms of time, space, cost, and water usage. Implemented backend infrastructure using Python/SQLAlchemy to spatially model greenhouse components. \n \n Developed a visualization tool that converts spatial greenhouse data into an interactive 3D model using Blender."
     },
     {
       company: "Tufts University – CS Department",
