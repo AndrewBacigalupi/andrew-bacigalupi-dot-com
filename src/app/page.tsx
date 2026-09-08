@@ -85,7 +85,7 @@ export default function Page() {
              In my free time, I enjoy basketball, tennis, pickleball, running, weightlifting, piano, and chess.
           </p>
           <p className="mt-6 prose max-w-full  font-sans leading-relaxed dark:prose-invert text-lg">
-             Lately, I've been trying to learn to learn jazz and blues improv on the piano, especially where these two types of music can be <a className="text-blue-900 hover:text-blue-200" 
+             Lately, I've been trying to learn to learn jazz and blues improv on the piano, especially where these two genres of music can be <a className="text-blue-900 hover:text-blue-200" 
                 href="https://www.youtube.com/shorts/YbVynUMGEpQ" 
                 target="_blank" 
                 rel="noopener noreferrer">mashed up with famous tunes.</a>
